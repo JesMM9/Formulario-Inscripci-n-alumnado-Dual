@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Inscripción dual</title>
+    </head>
+    <body>
+        <header>
+            <h1><strong>Formulario Inscripción alumnado Dual</strong></h1>
+        </header>
+        <main>
+            <form action="/Lenguaje/HTML/Ejercicio aparte formulario/registroCorrecto.html" method="get">
+                <fieldset>
+                    <legend>Datos personales</legend>
+
+                    <label name="Nombre">Nombre</label>
+                    <input type="text"><br><br>
+
+                    <label name="Apellidos">Apellidos</label>
+                    <input type="text"><br><br>
+
+                    <label name="Edad">Edad</label>
+                    <input type="number"><br><br>
+
+                    <label name="Sexo">Sexo</label><br>
+                    <input type="radio" name="Sexo" value="Masculino" checked>Masculino</input><br>
+                    <input type="radio" name="Sexo" value="Femenino">Femenino</input><br>
+                    <input type="radio" name="Sexo" value="No binario">No binario</input><br>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Otros</legend>
+
+                    <label name="Provincia">Provincia</label>
+                    <select name="Provincias">
+                        <option value="Sevilla" selected>Sevilla</option>
+                        <option value="Huelva">Huelva</option>
+                        <option value="Huelva">Cádiz</option>
+                        <option value="Huelva">Córdoba</option>
+                        <option value="Huelva">Málaga</option>
+                        <option value="Huelva">Jaén</option>
+                        <option value="Huelva">Granada</option>
+                        <option value="Huelva">Almería</option>
+                    </select><br><br>
+
+                    <label name="Curriculum">Currículum</label>
+                    <input type="file"><br><br>
+
+                    <label name="Observaciones">Observaciones</label>
+                    <textarea></textarea>
+
+                </fieldset><br><br>
+
+                <input type="submit" name="Enviar" value="Enviar">
+
+            </form>
+        </main>
+    </body>
+</html>
